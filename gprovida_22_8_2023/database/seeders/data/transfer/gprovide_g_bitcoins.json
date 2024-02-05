@@ -1,0 +1,12 @@
+[
+{"type":"header","version":"4.9.7","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"gprovide_g"},
+{"type":"table","name":"bitcoins","database":"gprovide_g","data":
+[
+{"id":"1","user_id":"1851","bit_address":"3K3CHKDRwR7zX4vDUU6J4sjRvasNAtvGy7","status":"active","created_at":"2019-08-19 11:55:44","updated_at":"2019-08-19 11:55:44"},
+{"id":"2","user_id":"4526","bit_address":"TBAB4uEqFFFSZQWDegrBc46iS64YayJsrW","status":"active","created_at":"2022-08-29 13:46:31","updated_at":"2022-08-29 13:46:31"},
+{"id":"3","user_id":"4681","bit_address":"bc1q6tzjqekmhjq825kp9wdsd78n6qhn895jhc5qtu","status":"active","created_at":"2022-09-07 05:40:01","updated_at":"2022-09-07 05:40:01"},
+{"id":"4","user_id":"5525","bit_address":"1GAAMiEJkAmyr9eAgiGCUch2aZDfVXL5Eu","status":"active","created_at":"2022-11-25 23:45:43","updated_at":"2022-11-25 23:45:43"}
+]
+}
+]

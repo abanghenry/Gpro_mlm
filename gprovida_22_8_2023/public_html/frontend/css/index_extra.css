@@ -1,0 +1,155 @@
+.auth_nav{
+    border-radius: 50%;
+    background: #efc368;
+    color: #214842;
+    width: 80px;
+    height: 80px;
+
+    font-family: NunitoSans, sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 25.5px
+}
+
+
+.sale {
+    text-align: center
+}
+
+.sale_grid {
+    grid-gap: 30px
+}
+
+.sale_grid-item {
+    height: 300px;
+    border-radius: 16px;
+    overflow: hidden;
+    position: relative
+}
+
+.sale_grid-item:hover .sale_grid-item_bg {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1)
+}
+
+.sale_grid-item_content {
+    position: relative;
+    z-index: 100;
+    height: 100%;
+    padding: 30px
+}
+
+.sale_grid-item_bg {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    -webkit-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+    transition: .5s ease-in-out
+}
+
+.sale_grid-item_bg img {
+    height: 100%
+}
+
+.sale_grid-item_subtitle {
+    font-weight: 600;
+    font-size: 14px
+}
+
+.sale_grid-item .btn--underline {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: 0 auto
+}
+
+.sale_grid-item .label {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    background: #258f67;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-family: NunitoSans,sans-serif;
+    font-weight: 700;
+    font-size: 16px
+}
+
+.sale_grid-item .text {
+    margin: 10px 0
+}
+
+.sale_grid-item--weekly {
+    height: 400px
+}
+
+.sale_grid-item--weekly .sale_grid-item_title {
+    margin: 10px 0 30px
+}
+
+.sale_header-text {
+    margin: 15px 0 30px
+}
+
+@media screen and (min-width:575.98px) {
+    .sale {
+        text-align: left
+    }
+
+    .sale_header {
+        margin-bottom: 10px
+    }
+
+    .sale_grid-item .btn--underline {
+        margin: 0 auto 0 0
+    }
+}
+
+@media screen and (min-width:767.98px) {
+    .sale_header {
+        padding-top: 20px;
+        margin-bottom: 0
+    }
+
+    .sale_header-text {
+        max-width: 360px
+    }
+
+    .sale_grid {
+        grid-template-columns: repeat(2,1fr)
+    }
+}
+
+@media screen and (min-width:991.98px) {
+    .sale_grid {
+        grid-gap: 40px
+    }
+
+    .sale_grid-item_content {
+        padding: 40px
+    }
+}
+
+@media screen and (min-width:1199.98px) {
+    .sale_grid {
+        grid-template-columns: repeat(3,1fr)
+    }
+
+    .sale_grid-item {
+        height: 320px
+    }
+
+    .sale_grid-item--weekly {
+        grid-area: 1/3/3/4;
+        height: 100%
+    }
+}

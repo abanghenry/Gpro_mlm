@@ -1,0 +1,131 @@
+--- 
+files: 
+  certificate: 
+    _wildcard__gprovida_com_c3c95_16671_1696148705_4f3a910bf26ccdec1e161215a019a5d4: 
+      created: '1688376306'
+      domains: 
+        - "*.gprovida.com"
+        - gprovida.com
+      ecdsa_curve_name: ~
+      ecdsa_public: ~
+      friendly_name: Cert for “gprovida.com” 1688376306.0
+      id: _wildcard__gprovida_com_c3c95_16671_1696148705_4f3a910bf26ccdec1e161215a019a5d4
+      is_self_signed: 0
+      issuer.commonName: R3
+      issuer.organizationName: Let's Encrypt
+      key_algorithm: rsaEncryption
+      modulus: c3c95fe20da1c783143fcae6a04dd9b3ae33159012294db00acf696f363f8f2daea982bcda7312f9fe3f596fabf4434b9ddf4dbd145fb8c2c58307fc06bbe68d83cc4680ec2758ab95404244a02dbfd98bfe3437878e204f767c5cabafb431616eac009d4f4ebcb90cbc22cc3aae3d375feb9718c4cf8cd27e3cd92d815c345eb7e42db501d6fd05201d3cc309d61bd31339cbf1d4542923413a08d7c596f1cd46c1736b9a9d4b888db935b18a2a940a0cc6bad28bc2e9022c8ab8b1b8cd5e80c5a56790ffecb46f9cc2d13173c4e163cd16904e3126aae90e3712c72a19094f20e106d780430352c69f4161e5428d92fb075b514578cf051c84650a55f16671
+      modulus_length: 2048
+      not_after: '1696148705'
+      not_before: '1688372706'
+      serial: 03fec5a891607f8912e77aa1675db6bf713d
+      signature_algorithm: sha256WithRSAEncryption
+      subject.commonName: "*.gprovida.com"
+      validation_type: dv
+    gprovida_com_ae003_60365_1701151529_930f01ff63071b8b6410597967b540fc: 
+      created: '1669615529'
+      domains: 
+        - gprovida.com
+        - mail.gprovida.com
+        - www.gprovida.com
+        - cpanel.gprovida.com
+        - webmail.gprovida.com
+        - webdisk.gprovida.com
+        - cpcontacts.gprovida.com
+        - cpcalendars.gprovida.com
+      ecdsa_curve_name: ~
+      ecdsa_public: ~
+      friendly_name: Cert for “gprovida.com”
+      id: gprovida_com_ae003_60365_1701151529_930f01ff63071b8b6410597967b540fc
+      is_self_signed: 1
+      issuer.commonName: gprovida.com
+      issuer.organizationName: ~
+      key_algorithm: rsaEncryption
+      modulus: ae00350122faeed0137a7acb34ad2f958d9bbfc53f05185ab8f3ede035c5bd2475b99063e57256227afeff4130dc33e6c52267b085c06d96ea48c746b6a1755ba07f9837eae8c4c309a97f7136b547f1727ba869b6906ee251043e930a0774b8a1371f9efb767e95a16867deb57cdc41a310293f30e0e6ef4b6720d59aa9c3900f4d8cd691dc23607a3bd99b99cb4e781aeb72ad11da8913b32f5c3ba688d678fc3234268b934e500a3d7471ad91482ddcfe9aa438af316f4788f59ce872600f6edcb895ef6f603519eaa9cf201afb91546e99feb719be60f2db73e6a401535c9d27d94092a7ab1f48db6da6f6a1d27094b86a9c48cc1866d8d58f1145e60365
+      modulus_length: 2048
+      not_after: '1701151529'
+      not_before: '1669615529'
+      serial: 0132baeb86
+      signature_algorithm: sha256WithRSAEncryption
+      subject.commonName: gprovida.com
+      validation_type: ~
+    gprovida_com_c39c9_fc76f_1696144811_b79ecf032cc4b695a0d599149b30e135: 
+      created: '1688372413'
+      domains: 
+        - gprovida.com
+        - mail.gprovida.com
+        - www.gprovida.com
+      ecdsa_curve_name: ~
+      ecdsa_public: ~
+      friendly_name: gprovida.com, mail.gprovida.com, and www.gprovida.com 1688372413.0
+      id: gprovida_com_c39c9_fc76f_1696144811_b79ecf032cc4b695a0d599149b30e135
+      is_self_signed: 0
+      issuer.commonName: R3
+      issuer.organizationName: Let's Encrypt
+      key_algorithm: rsaEncryption
+      modulus: c39c97d8eaacdc8a5b610e9714fc7dc6a6111fa4353ecdbc7a5f218e04ed68f0f19127cc7093ac918a40cfcd4d2d54227b8be41d38effdb02e1d0c64ed6ff3e4cdb60627671d0ccacaecc3173320ece687150318c72d77450ba46864e32169227867fa4e5e5c3c5547f8c260b5dfe2dd38b7277da5d8295fbadad611bcb8aad0870421f3ba70e5e6f955c9457c256950c1d3118f1a5dde7e62b89922816033bd6fd6fedd14b81360ff2405eee1857efefc05bef7156b9f6cbe311419d9a7b444e82270bfc585b8f57f61bd9fbdd8e73594b5cd6a0688c898ac5788fc32af613db918ddaa93734e7b2a2ce73c80c07e8a1b9a637e6028f636a01b7734bc2fc76f
+      modulus_length: 2048
+      not_after: '1696144811'
+      not_before: '1688368812'
+      serial: 04d506aad418c6aa9252ed5b5c7cff470a04
+      signature_algorithm: sha256WithRSAEncryption
+      subject.commonName: gprovida.com
+      validation_type: dv
+  key: 
+    adfb7_d96d5_7d324013b2a1afd186d473582bdbece7: 
+      created: '1683302283'
+      ecdsa_curve_name: ~
+      ecdsa_public: ~
+      friendly_name: Key for “gprovida.com” 1683302283.0
+      id: adfb7_d96d5_7d324013b2a1afd186d473582bdbece7
+      key_algorithm: rsaEncryption
+      modulus: adfb7e8a1f433df3cfd654e977c99e4fb57329e8710cef9927e84d3a8db423fab829b8270c987922cd0c7553d3d1a7706d1a71ccd302052b3dd2aa299f3be183eb4aaad05d7e1eef25804cf3c39be87359504e5a6a03a676a3a59d7b1d8d006e9e2ec7005ecffd9f6d5fbb46624a7ab6b49ad4e8fee1c26b49c47711591cd31298ae53893f66743fab27db91423bbc448414762a53d7b282176477d686600c4263ff7300761be6cc669ea3ffd2cdf83e8f12dc30dfa149a022c211a05d7843ddc9c3694f68adccc69a8e120e5e9c090b8f82c0cc54828370c30b0c41770c6511f31630aacf415830b462a14760ac09abdfe7a21a5b4f69fa4be1c054bd4d96d5
+      modulus_length: 2048
+    ae003_60365_1a01be29401e09e647b0d1f1f183fd58: 
+      created: '1669615529'
+      ecdsa_curve_name: ~
+      ecdsa_public: ~
+      friendly_name: Key for “gprovida.com”
+      id: ae003_60365_1a01be29401e09e647b0d1f1f183fd58
+      key_algorithm: rsaEncryption
+      modulus: ae00350122faeed0137a7acb34ad2f958d9bbfc53f05185ab8f3ede035c5bd2475b99063e57256227afeff4130dc33e6c52267b085c06d96ea48c746b6a1755ba07f9837eae8c4c309a97f7136b547f1727ba869b6906ee251043e930a0774b8a1371f9efb767e95a16867deb57cdc41a310293f30e0e6ef4b6720d59aa9c3900f4d8cd691dc23607a3bd99b99cb4e781aeb72ad11da8913b32f5c3ba688d678fc3234268b934e500a3d7471ad91482ddcfe9aa438af316f4788f59ce872600f6edcb895ef6f603519eaa9cf201afb91546e99feb719be60f2db73e6a401535c9d27d94092a7ab1f48db6da6f6a1d27094b86a9c48cc1866d8d58f1145e60365
+      modulus_length: 2048
+    c3c95_16671_e3cdeb223a480282a01d1111c08cb5be: 
+      created: '1688376306'
+      ecdsa_curve_name: ~
+      ecdsa_public: ~
+      friendly_name: Key for “gprovida.com” 1688376306.0
+      id: c3c95_16671_e3cdeb223a480282a01d1111c08cb5be
+      key_algorithm: rsaEncryption
+      modulus: c3c95fe20da1c783143fcae6a04dd9b3ae33159012294db00acf696f363f8f2daea982bcda7312f9fe3f596fabf4434b9ddf4dbd145fb8c2c58307fc06bbe68d83cc4680ec2758ab95404244a02dbfd98bfe3437878e204f767c5cabafb431616eac009d4f4ebcb90cbc22cc3aae3d375feb9718c4cf8cd27e3cd92d815c345eb7e42db501d6fd05201d3cc309d61bd31339cbf1d4542923413a08d7c596f1cd46c1736b9a9d4b888db935b18a2a940a0cc6bad28bc2e9022c8ab8b1b8cd5e80c5a56790ffecb46f9cc2d13173c4e163cd16904e3126aae90e3712c72a19094f20e106d780430352c69f4161e5428d92fb075b514578cf051c84650a55f16671
+      modulus_length: 2048
+indexes: 
+  certificate: 
+    modulus: 
+      ae00350122faeed0137a7acb34ad2f958d9bbfc53f05185ab8f3ede035c5bd2475b99063e57256227afeff4130dc33e6c52267b085c06d96ea48c746b6a1755ba07f9837eae8c4c309a97f7136b547f1727ba869b6906ee251043e930a0774b8a1371f9efb767e95a16867deb57cdc41a310293f30e0e6ef4b6720d59aa9c3900f4d8cd691dc23607a3bd99b99cb4e781aeb72ad11da8913b32f5c3ba688d678fc3234268b934e500a3d7471ad91482ddcfe9aa438af316f4788f59ce872600f6edcb895ef6f603519eaa9cf201afb91546e99feb719be60f2db73e6a401535c9d27d94092a7ab1f48db6da6f6a1d27094b86a9c48cc1866d8d58f1145e60365: 
+        gprovida_com_ae003_60365_1701151529_930f01ff63071b8b6410597967b540fc: ~
+      c39c97d8eaacdc8a5b610e9714fc7dc6a6111fa4353ecdbc7a5f218e04ed68f0f19127cc7093ac918a40cfcd4d2d54227b8be41d38effdb02e1d0c64ed6ff3e4cdb60627671d0ccacaecc3173320ece687150318c72d77450ba46864e32169227867fa4e5e5c3c5547f8c260b5dfe2dd38b7277da5d8295fbadad611bcb8aad0870421f3ba70e5e6f955c9457c256950c1d3118f1a5dde7e62b89922816033bd6fd6fedd14b81360ff2405eee1857efefc05bef7156b9f6cbe311419d9a7b444e82270bfc585b8f57f61bd9fbdd8e73594b5cd6a0688c898ac5788fc32af613db918ddaa93734e7b2a2ce73c80c07e8a1b9a637e6028f636a01b7734bc2fc76f: 
+        gprovida_com_c39c9_fc76f_1696144811_b79ecf032cc4b695a0d599149b30e135: ~
+      c3c95fe20da1c783143fcae6a04dd9b3ae33159012294db00acf696f363f8f2daea982bcda7312f9fe3f596fabf4434b9ddf4dbd145fb8c2c58307fc06bbe68d83cc4680ec2758ab95404244a02dbfd98bfe3437878e204f767c5cabafb431616eac009d4f4ebcb90cbc22cc3aae3d375feb9718c4cf8cd27e3cd92d815c345eb7e42db501d6fd05201d3cc309d61bd31339cbf1d4542923413a08d7c596f1cd46c1736b9a9d4b888db935b18a2a940a0cc6bad28bc2e9022c8ab8b1b8cd5e80c5a56790ffecb46f9cc2d13173c4e163cd16904e3126aae90e3712c72a19094f20e106d780430352c69f4161e5428d92fb075b514578cf051c84650a55f16671: 
+        _wildcard__gprovida_com_c3c95_16671_1696148705_4f3a910bf26ccdec1e161215a019a5d4: ~
+    subject.commonName: 
+      "*.gprovida.com": 
+        _wildcard__gprovida_com_c3c95_16671_1696148705_4f3a910bf26ccdec1e161215a019a5d4: ~
+      gprovida.com: 
+        gprovida_com_ae003_60365_1701151529_930f01ff63071b8b6410597967b540fc: ~
+        gprovida_com_c39c9_fc76f_1696144811_b79ecf032cc4b695a0d599149b30e135: ~
+uniques: 
+  certificate: 
+    friendly_name: 
+      Cert for “gprovida.com”: gprovida_com_ae003_60365_1701151529_930f01ff63071b8b6410597967b540fc
+      Cert for “gprovida.com” 1688376306.0: _wildcard__gprovida_com_c3c95_16671_1696148705_4f3a910bf26ccdec1e161215a019a5d4
+      gprovida.com, mail.gprovida.com, and www.gprovida.com 1688372413.0: gprovida_com_c39c9_fc76f_1696144811_b79ecf032cc4b695a0d599149b30e135
+  key: 
+    friendly_name: 
+      Key for “gprovida.com”: ae003_60365_1a01be29401e09e647b0d1f1f183fd58
+      Key for “gprovida.com” 1683302283.0: adfb7_d96d5_7d324013b2a1afd186d473582bdbece7
+      Key for “gprovida.com” 1688376306.0: c3c95_16671_e3cdeb223a480282a01d1111c08cb5be
+    modulus:ecdsa_curve_name:ecdsa_public: 
+      adfb7e8a1f433df3cfd654e977c99e4fb57329e8710cef9927e84d3a8db423fab829b8270c987922cd0c7553d3d1a7706d1a71ccd302052b3dd2aa299f3be183eb4aaad05d7e1eef25804cf3c39be87359504e5a6a03a676a3a59d7b1d8d006e9e2ec7005ecffd9f6d5fbb46624a7ab6b49ad4e8fee1c26b49c47711591cd31298ae53893f66743fab27db91423bbc448414762a53d7b282176477d686600c4263ff7300761be6cc669ea3ffd2cdf83e8f12dc30dfa149a022c211a05d7843ddc9c3694f68adccc69a8e120e5e9c090b8f82c0cc54828370c30b0c41770c6511f31630aacf415830b462a14760ac09abdfe7a21a5b4f69fa4be1c054bd4d96d5: adfb7_d96d5_7d324013b2a1afd186d473582bdbece7
+      ae00350122faeed0137a7acb34ad2f958d9bbfc53f05185ab8f3ede035c5bd2475b99063e57256227afeff4130dc33e6c52267b085c06d96ea48c746b6a1755ba07f9837eae8c4c309a97f7136b547f1727ba869b6906ee251043e930a0774b8a1371f9efb767e95a16867deb57cdc41a310293f30e0e6ef4b6720d59aa9c3900f4d8cd691dc23607a3bd99b99cb4e781aeb72ad11da8913b32f5c3ba688d678fc3234268b934e500a3d7471ad91482ddcfe9aa438af316f4788f59ce872600f6edcb895ef6f603519eaa9cf201afb91546e99feb719be60f2db73e6a401535c9d27d94092a7ab1f48db6da6f6a1d27094b86a9c48cc1866d8d58f1145e60365: ae003_60365_1a01be29401e09e647b0d1f1f183fd58
+      c3c95fe20da1c783143fcae6a04dd9b3ae33159012294db00acf696f363f8f2daea982bcda7312f9fe3f596fabf4434b9ddf4dbd145fb8c2c58307fc06bbe68d83cc4680ec2758ab95404244a02dbfd98bfe3437878e204f767c5cabafb431616eac009d4f4ebcb90cbc22cc3aae3d375feb9718c4cf8cd27e3cd92d815c345eb7e42db501d6fd05201d3cc309d61bd31339cbf1d4542923413a08d7c596f1cd46c1736b9a9d4b888db935b18a2a940a0cc6bad28bc2e9022c8ab8b1b8cd5e80c5a56790ffecb46f9cc2d13173c4e163cd16904e3126aae90e3712c72a19094f20e106d780430352c69f4161e5428d92fb075b514578cf051c84650a55f16671: c3c95_16671_e3cdeb223a480282a01d1111c08cb5be

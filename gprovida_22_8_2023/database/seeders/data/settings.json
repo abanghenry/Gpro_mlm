@@ -1,0 +1,211 @@
+[
+    {
+        "key": "app_email",
+        "value": "info@getproskills.com",
+        "type": "text",
+        "options": "",
+        "category": "general",
+        "description": "",
+        "tooltip": ""
+
+    },
+    {
+        "key": "app_phone",
+        "value": "08073007059",
+        "type": "text",
+        "options": "",
+        "category": "general",
+        "description": "",
+        "tooltip": ""
+
+    },
+    {
+        "key": "address",
+        "value": "Abuja",
+        "type": "textarea",
+        "options": "",
+        "category": "general",
+        "description": "",
+        "tooltip": ""
+
+    },
+    {
+        "key": "bank",
+        "value": "Company account details here",
+        "type": "textarea",
+        "options": "",
+        "category": "general",
+        "description": "",
+        "tooltip": ""
+    },
+    {
+        "key": "spill_over_preference",
+        "value": "balanced",
+        "type": "select",
+        "options": "balanced, extreme_left,extreme_right,weak_side",
+        "category": "mlm",
+        "description": "How Spill Over should happen",
+        "tooltip": ""
+
+    },
+    {
+        "key": "binary_type",
+        "value": "2:1",
+        "type": "select",
+        "options": "'1:1','2:1','3:2'",
+        "category": "mlm",
+        "description": "How Bianry Payment is done",
+        "tooltip": ""
+
+    },
+    {
+        "key": "payout_cycle",
+        "value": "daily",
+        "type": "select",
+        "options": "daily,weekly,monthly",
+        "category": "mlm",
+        "description": "How frequent payout is made",
+        "tooltip": ""
+
+    },
+    {
+        "key": "referral_bonus_format",
+        "value": "pv",
+        "type": "select",
+        "options": "amount,pv",
+        "category": "mlm",
+        "description": "Referral Bonus format, pay with amount of package or PV",
+        "tooltip": ""
+
+    },
+    {
+        "key": "referral_bonus_capping",
+        "value": "0",
+        "type": "text",
+        "options": "",
+        "category": "mlm",
+        "description": "Referral Bonus capping, 0 means no capping",
+        "tooltip": ""
+    },
+    {
+        "key": "binary_bonus_capping",
+        "value": "0",
+        "type": "text",
+        "options": "",
+        "category": "mlm",
+        "description": "Binary Bonus capping, 0 means no capping",
+        "tooltip": ""
+    },
+
+    {
+        "key": "stockist_bonus_percentage",
+        "value": "5",
+        "type": "text",
+        "options": "",
+        "category": "mlm",
+        "description": "Percentage of order value to be paid to stockist as bonus",
+        "tooltip": ""
+    },
+    {
+        "key": "direct_purchase_bonus_percentage",
+        "value": "20",
+        "type": "text",
+        "options": "",
+        "category": "mlm",
+        "description": "Percentage of excess Product Purchased to be paid to user as direct Purchase bonus",
+        "tooltip": ""
+    },
+    {
+        "key": "direct_purchase_monthly_activation_pv",
+        "value": "22",
+        "type": "text",
+        "options": "",
+        "category": "mlm",
+        "description": "Minimum target PV for a cycle before direct Bonus can be paid",
+        "tooltip": ""
+    },
+    {
+        "key": "loyalty_bonus_percentage",
+        "value": "10",
+        "type": "text",
+        "options": "",
+        "category": "mlm",
+        "description": "Percentage of Users earning to be paid to sponsor as loyalty bonus",
+        "tooltip": ""
+    },
+
+    {
+        "key": "global_sales_payout_cycle",
+        "value": "monthly",
+        "type": "select",
+        "options": "daily,weekly,monthly",
+        "category": "mlm",
+        "description": "How frequent payout for global Sales and Registration bonus is made",
+        "tooltip": ""
+
+    },
+    {
+        "key": "global_sales_bonus_percentage",
+        "value": "2",
+        "type": "text",
+        "options": "",
+        "category": "mlm",
+        "description": "Percentage of Global sales amount to be shared as Global Bonus",
+        "tooltip": ""
+    },
+    {
+        "key": "global_registration_bonus_percentage",
+        "value": "3",
+        "type": "text",
+        "options": "",
+        "category": "mlm",
+        "description": "Percentage of Global registration amount to be shared as Global Bonus",
+        "tooltip": ""
+    },
+    {
+        "key": "global_bonus_packages",
+        "value": "3,5",
+        "type": "text",
+        "options": "",
+        "category": "mlm",
+        "description": "Packages required to earn Global Bonus (Enter Package IDs Only seperated by comma)",
+        "tooltip": ""
+    },
+    {
+        "key": "global_bonus_min_pv",
+        "value": "22",
+        "type": "text",
+        "options": "",
+        "category": "mlm",
+        "description": "Minimum Monthly direct purchase PV need to earn global Sales and Registration Bonus",
+        "tooltip": ""
+    },
+    {
+        "key": "global_bonus_min_sponsor",
+        "value": "3",
+        "type": "text",
+        "options": "",
+        "category": "mlm",
+        "description": "Minimum Number of Monthly sponsors to earn Global Bonus",
+        "tooltip": ""
+    },
+
+    {
+        "key": "generational_bonus_percentage",
+        "value": "10",
+        "type": "text",
+        "options": "",
+        "category": "mlm",
+        "description": "Percentage of Users Purchase to be paid to sponsor as generational bonus",
+        "tooltip": ""
+    },
+    {
+        "key": "generational_bonus_min_pv",
+        "value": "22",
+        "type": "text",
+        "options": "",
+        "category": "mlm",
+        "description": "Minimum target PV for a cycle before you can earn generational Bonus",
+        "tooltip": ""
+    }
+]

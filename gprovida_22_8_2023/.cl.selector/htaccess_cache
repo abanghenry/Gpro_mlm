@@ -1,0 +1,3 @@
+[/home/gprovida/public_html]
+htaccess_list = /home/gprovida/public_html/adminTemplate/plugins/jquery-fileupload/server/php/files/.htaccess,/home/gprovida/public_html/.htaccess
+

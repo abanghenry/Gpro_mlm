@@ -1,0 +1,132 @@
+Queues and Job
+-- Use database as queue connection
+     -- change to database in config/queue file
+     -- update the QUEUE_CONNECTION variable in your application's .env file:  QUEUE_CONNECTION=database
+     --php artisan queue:table
+     --php artisan migrate
+
+-- Creating Jobs
+  --php artisan make:job ProcessPodcast     --folder = app/Jobs
+    -- Job classes contain only a handle method
+             public function __construct(Podcast $podcast){
+                     $this->podcast = $podcast;
+             }
+             public function handle(AudioProcessor $processor){
+                     // Process uploaded podcast...
+             }
+
+    -- only one instance of a specific job
+        -- jobclass implements ShouldQueue, ShouldBeUnique{
+            }
+
+    -- Dispatching Jobs  --require a queue worker
+         1) Normal
+               ProcessPodcast::dispatch($podcast);
+               --with conditions
+                 ProcessPodcast::dispatchIf($accountActive, $podcast);
+                 ProcessPodcast::dispatchUnless($accountSuspended, $podcast);
+         2) Delayed Dispatch
+               ProcessPodcast::dispatch($podcast)->delay(now()->addMinutes(10));
+         3) Dispatching After The Response Is Sent To Browser -- (do not require a queue worker to be running)
+               SendNotification::dispatchAfterResponse();
+         4) Synchronous Dispatching  --executed immediately within the current process
+               ProcessPodcast::dispatchSync($podcast);
+
+    -- Job Chaining   --specify a list of queued jobs that should be run in sequence
+        Bus::chain([
+            new ProcessPodcast,
+            new OptimizePodcast,
+            new ReleasePodcast,
+        ])->dispatch();
+     -- Dispatching To A Particular Queue
+          ProcessPodcast::dispatch($podcast)->onQueue('processing');
+     -- Dispatching To A Particular Connection
+          ProcessPodcast::dispatch($podcast)->onConnection('sqs');
+     -- Max Attempts
+          php artisan queue:work --tries=3
+     -- Timeout  (pcntl PHP extension must be installed )
+          php artisan queue:work --timeout=30
+
+     --Running The Queue Worker
+         php artisan queue:work
+         1) Specifying The Connection & Queue
+                php artisan queue:work redis
+                php artisan queue:work redis --queue=emails
+         2) Processing A Specified Number Of Jobs
+                php artisan queue:work --once            --process a single job from the queue
+                php artisan queue:work --max-jobs=1000
+         3) Processing All Queued Jobs & Then Exiting
+                php artisan queue:work --stop-when-empty
+         4) Processing Jobs For A Given Number Of Seconds
+                php artisan queue:work --max-time=3600
+         -- on cpanel
+            -- cron job
+                1) --triggered every min     php artisan queue:work --once
+                      php /home/forge/app.com/artisan queue:work
+                      php /path/to/application/artisan queue:work --once --queue=high,default
+                2) --triggered every 5 mins   php artisan queue:work --max-time=300
+                      php /path/to/application/artisan queue:work --max-time=300
+                3) --schedule  -use
+                     Adding this line to the scheduler in app\Console\Kernel.php
+                     a) $schedule->command('queue:work --stop-when-empty')
+                         ->everyMinute()
+                         ->withoutOverlapping();
+                     b) $schedule->command('queue:restart')
+                            ->everyFiveMinutes();
+                     * * * * * /usr/local/bin/php /home/{account_name}/{laravel app folder}/artisan schedule:run
+                     or
+                     * * * * * cd /path-to-your-project && php artisan schedule:run >> /dev/null 2>&1
+
+        --Deployment ( for queue worker to notice any code change)
+          1) php artisan queue:restart
+          2) php artisan queue:listen       --you don't have to manually restart the worker
+
+        --Installing Supervisor
+           sudo apt-get install supervisor
+
+        --Dealing With Failed Jobs
+           php artisan queue:failed-table
+           php artisan migrate
+           php artisan queue:work redis --tries=3
+
+        --Monitoring Your Queues  -- (Laravel can alert you when your queue job count exceeds a specified threshold.)           -
+          php artisan queue:monitor redis:default,redis:deployments --max=100
+            --lluminate\Queue\Events\QueueBusy event will be dispatched
+            public function boot()
+            {
+                Event::listen(function (QueueBusy $event) {
+                    Notification::route('mail', 'dev@example.com')
+                            ->notify(new QueueHasLongWaitTime(
+                                $event->connection,
+                                $event->queue,
+                                $event->size
+                            ));
+                });
+            }
+
+
+       Schedule Job
+
+       use App\Jobs\Heartbeat;
+       $schedule->job(new Heartbeat)->monthly()
+                                    ->timezone('Africa/Lagos')
+                                    ->runInBackground(); //Run the task on the first day of every month at 00:00
+
+
+
+  vite
+    -- deployment
+       --You shouldn't have anything in public/hot. Its being detected by vite that you are in a hot reload situation.
+
+
+  inertial js Logout
+     // to avoid showing in iframe
+     return Inertia::location('/');
+
+
+    <span>Release Product Earnings</span>
+    <span>Release Bonus Earnings</span>
+    <span>Release Funds</span>
+    <span>Release Funds</span>
+    <span>Bonus Requests</span>
+

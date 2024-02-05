@@ -1,0 +1,15 @@
+[
+{"id":"1","name":"Smart Phone","incentive_points":"300","cash_equivalent":"75000.000"},
+{"id":"2","name":"Laptop ","incentive_points":"2100","cash_equivalent":"350000.000"},
+{"id":"3","name":"Travels","incentive_points":"8200","cash_equivalent":"1300000.000"},
+{"id":"4","name":"Standard Car","incentive_points":"21000","cash_equivalent":"3400000.000"},
+{"id":"8","name":"Executive Car","incentive_points":"57000","cash_equivalent":"9000000.000"},
+{"id":"10","name":"Standard Land","incentive_points":"110000","cash_equivalent":"12500000.000"},
+{"id":"11","name":"House","incentive_points":"220000","cash_equivalent":"30000000.000"},
+{"id":"12","name":"35 Million Naira Cash","incentive_points":"360000","cash_equivalent":"35000000.000"},
+{"id":"13","name":"48 Million Naira Cash","incentive_points":"530000","cash_equivalent":"48000000.000"},
+{"id":"14","name":"100 Million Naira Cash","incentive_points":"930000","cash_equivalent":"100000000.000"},
+{"id":"15","name":"200 Million Naira Cash","incentive_points":"1700000","cash_equivalent":"200000000.000"},
+{"id":"16","name":"300 Million Naira Cash","incentive_points":"2700000","cash_equivalent":"300000000.000"},
+{"id":"17","name":"400 Million Naira Cash","incentive_points":"4200000","cash_equivalent":"400000000.000"}
+]

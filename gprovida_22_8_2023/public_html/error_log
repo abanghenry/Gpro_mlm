@@ -1,0 +1,163 @@
+[12-Dec-2022 01:07:38 Europe/London] PHP Fatal error:  Uncaught Error: Failed opening required '/home/gprovida/vendor/composer/../php-http/message/src/filters.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/gprovida/vendor/composer/autoload_real.php:71
+Stack trace:
+#0 /home/gprovida/vendor/composer/autoload_real.php(61): composerRequirea88ce7ccab434fc4e2822675b6ecbcba()
+#1 /home/gprovida/vendor/autoload.php(7): ComposerAutoloaderInita88ce7ccab434fc4e2822675b6ecbcba::getLoader()
+#2 /home/gprovida/public_html/index.php(34): require('/home/gprovida/...')
+#3 {main}
+  thrown in /home/gprovida/vendor/composer/autoload_real.php on line 71
+[12-Dec-2022 01:07:42 Europe/London] PHP Fatal error:  Uncaught Error: Failed opening required '/home/gprovida/vendor/composer/../php-http/message/src/filters.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/gprovida/vendor/composer/autoload_real.php:71
+Stack trace:
+#0 /home/gprovida/vendor/composer/autoload_real.php(61): composerRequirea88ce7ccab434fc4e2822675b6ecbcba()
+#1 /home/gprovida/vendor/autoload.php(7): ComposerAutoloaderInita88ce7ccab434fc4e2822675b6ecbcba::getLoader()
+#2 /home/gprovida/public_html/index.php(34): require('/home/gprovida/...')
+#3 {main}
+  thrown in /home/gprovida/vendor/composer/autoload_real.php on line 71
+[12-Dec-2022 01:07:43 Europe/London] PHP Fatal error:  Uncaught Error: Failed opening required '/home/gprovida/vendor/composer/../php-http/message/src/filters.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/gprovida/vendor/composer/autoload_real.php:71
+Stack trace:
+#0 /home/gprovida/vendor/composer/autoload_real.php(61): composerRequirea88ce7ccab434fc4e2822675b6ecbcba()
+#1 /home/gprovida/vendor/autoload.php(7): ComposerAutoloaderInita88ce7ccab434fc4e2822675b6ecbcba::getLoader()
+#2 /home/gprovida/public_html/index.php(34): require('/home/gprovida/...')
+#3 {main}
+  thrown in /home/gprovida/vendor/composer/autoload_real.php on line 71
+[12-Dec-2022 01:07:46 Europe/London] PHP Fatal error:  Uncaught Error: Failed opening required '/home/gprovida/vendor/composer/../php-http/message/src/filters.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/gprovida/vendor/composer/autoload_real.php:71
+Stack trace:
+#0 /home/gprovida/vendor/composer/autoload_real.php(61): composerRequirea88ce7ccab434fc4e2822675b6ecbcba()
+#1 /home/gprovida/vendor/autoload.php(7): ComposerAutoloaderInita88ce7ccab434fc4e2822675b6ecbcba::getLoader()
+#2 /home/gprovida/public_html/index.php(34): require('/home/gprovida/...')
+#3 {main}
+  thrown in /home/gprovida/vendor/composer/autoload_real.php on line 71
+[12-Dec-2022 01:07:55 Europe/London] PHP Fatal error:  Uncaught Error: Failed opening required '/home/gprovida/vendor/composer/../php-http/message/src/filters.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/gprovida/vendor/composer/autoload_real.php:71
+Stack trace:
+#0 /home/gprovida/vendor/composer/autoload_real.php(61): composerRequirea88ce7ccab434fc4e2822675b6ecbcba()
+#1 /home/gprovida/vendor/autoload.php(7): ComposerAutoloaderInita88ce7ccab434fc4e2822675b6ecbcba::getLoader()
+#2 /home/gprovida/public_html/index.php(34): require('/home/gprovida/...')
+#3 {main}
+  thrown in /home/gprovida/vendor/composer/autoload_real.php on line 71
+[12-Dec-2022 01:08:17 Europe/London] PHP Fatal error:  Uncaught Error: Failed opening required '/home/gprovida/vendor/composer/../php-http/message/src/filters.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/gprovida/vendor/composer/autoload_real.php:71
+Stack trace:
+#0 /home/gprovida/vendor/composer/autoload_real.php(61): composerRequirea88ce7ccab434fc4e2822675b6ecbcba()
+#1 /home/gprovida/vendor/autoload.php(7): ComposerAutoloaderInita88ce7ccab434fc4e2822675b6ecbcba::getLoader()
+#2 /home/gprovida/public_html/index.php(34): require('/home/gprovida/...')
+#3 {main}
+  thrown in /home/gprovida/vendor/composer/autoload_real.php on line 71
+[12-Dec-2022 01:11:42 Europe/London] PHP Fatal error:  Uncaught Error: Failed opening required '/home/gprovida/vendor/composer/../php-http/message/src/filters.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/gprovida/vendor/composer/autoload_real.php:71
+Stack trace:
+#0 /home/gprovida/vendor/composer/autoload_real.php(61): composerRequirea88ce7ccab434fc4e2822675b6ecbcba()
+#1 /home/gprovida/vendor/autoload.php(7): ComposerAutoloaderInita88ce7ccab434fc4e2822675b6ecbcba::getLoader()
+#2 /home/gprovida/public_html/index.php(34): require('/home/gprovida/...')
+#3 {main}
+  thrown in /home/gprovida/vendor/composer/autoload_real.php on line 71
+[12-Dec-2022 01:11:51 Europe/London] PHP Fatal error:  Uncaught Error: Failed opening required '/home/gprovida/vendor/composer/../php-http/message/src/filters.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/gprovida/vendor/composer/autoload_real.php:71
+Stack trace:
+#0 /home/gprovida/vendor/composer/autoload_real.php(61): composerRequirea88ce7ccab434fc4e2822675b6ecbcba()
+#1 /home/gprovida/vendor/autoload.php(7): ComposerAutoloaderInita88ce7ccab434fc4e2822675b6ecbcba::getLoader()
+#2 /home/gprovida/public_html/index.php(34): require('/home/gprovida/...')
+#3 {main}
+  thrown in /home/gprovida/vendor/composer/autoload_real.php on line 71
+[12-Dec-2022 01:11:57 Europe/London] PHP Fatal error:  Uncaught Error: Failed opening required '/home/gprovida/vendor/composer/../php-http/message/src/filters.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/gprovida/vendor/composer/autoload_real.php:71
+Stack trace:
+#0 /home/gprovida/vendor/composer/autoload_real.php(61): composerRequirea88ce7ccab434fc4e2822675b6ecbcba()
+#1 /home/gprovida/vendor/autoload.php(7): ComposerAutoloaderInita88ce7ccab434fc4e2822675b6ecbcba::getLoader()
+#2 /home/gprovida/public_html/index.php(34): require('/home/gprovida/...')
+#3 {main}
+  thrown in /home/gprovida/vendor/composer/autoload_real.php on line 71
+[12-Dec-2022 01:12:08 Europe/London] PHP Fatal error:  Uncaught Error: Failed opening required '/home/gprovida/vendor/composer/../php-http/message/src/filters.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/gprovida/vendor/composer/autoload_real.php:71
+Stack trace:
+#0 /home/gprovida/vendor/composer/autoload_real.php(61): composerRequirea88ce7ccab434fc4e2822675b6ecbcba()
+#1 /home/gprovida/vendor/autoload.php(7): ComposerAutoloaderInita88ce7ccab434fc4e2822675b6ecbcba::getLoader()
+#2 /home/gprovida/public_html/index.php(34): require('/home/gprovida/...')
+#3 {main}
+  thrown in /home/gprovida/vendor/composer/autoload_real.php on line 71
+[12-Dec-2022 01:12:12 Europe/London] PHP Fatal error:  Uncaught Error: Failed opening required '/home/gprovida/vendor/composer/../php-http/message/src/filters.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/gprovida/vendor/composer/autoload_real.php:71
+Stack trace:
+#0 /home/gprovida/vendor/composer/autoload_real.php(61): composerRequirea88ce7ccab434fc4e2822675b6ecbcba()
+#1 /home/gprovida/vendor/autoload.php(7): ComposerAutoloaderInita88ce7ccab434fc4e2822675b6ecbcba::getLoader()
+#2 /home/gprovida/public_html/index.php(34): require('/home/gprovida/...')
+#3 {main}
+  thrown in /home/gprovida/vendor/composer/autoload_real.php on line 71
+[12-Dec-2022 01:12:26 Europe/London] PHP Fatal error:  Uncaught Error: Failed opening required '/home/gprovida/vendor/composer/../php-http/message/src/filters.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/gprovida/vendor/composer/autoload_real.php:71
+Stack trace:
+#0 /home/gprovida/vendor/composer/autoload_real.php(61): composerRequirea88ce7ccab434fc4e2822675b6ecbcba()
+#1 /home/gprovida/vendor/autoload.php(7): ComposerAutoloaderInita88ce7ccab434fc4e2822675b6ecbcba::getLoader()
+#2 /home/gprovida/public_html/index.php(34): require('/home/gprovida/...')
+#3 {main}
+  thrown in /home/gprovida/vendor/composer/autoload_real.php on line 71
+[12-Dec-2022 01:12:37 Europe/London] PHP Fatal error:  Uncaught Error: Failed opening required '/home/gprovida/vendor/composer/../php-http/message/src/filters.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/gprovida/vendor/composer/autoload_real.php:71
+Stack trace:
+#0 /home/gprovida/vendor/composer/autoload_real.php(61): composerRequirea88ce7ccab434fc4e2822675b6ecbcba()
+#1 /home/gprovida/vendor/autoload.php(7): ComposerAutoloaderInita88ce7ccab434fc4e2822675b6ecbcba::getLoader()
+#2 /home/gprovida/public_html/index.php(34): require('/home/gprovida/...')
+#3 {main}
+  thrown in /home/gprovida/vendor/composer/autoload_real.php on line 71
+[12-Dec-2022 01:12:42 Europe/London] PHP Fatal error:  Uncaught Error: Failed opening required '/home/gprovida/vendor/composer/../php-http/message/src/filters.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/gprovida/vendor/composer/autoload_real.php:71
+Stack trace:
+#0 /home/gprovida/vendor/composer/autoload_real.php(61): composerRequirea88ce7ccab434fc4e2822675b6ecbcba()
+#1 /home/gprovida/vendor/autoload.php(7): ComposerAutoloaderInita88ce7ccab434fc4e2822675b6ecbcba::getLoader()
+#2 /home/gprovida/public_html/index.php(34): require('/home/gprovida/...')
+#3 {main}
+  thrown in /home/gprovida/vendor/composer/autoload_real.php on line 71
+[12-Dec-2022 01:12:44 Europe/London] PHP Fatal error:  Uncaught Error: Failed opening required '/home/gprovida/vendor/composer/../php-http/message/src/filters.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/gprovida/vendor/composer/autoload_real.php:71
+Stack trace:
+#0 /home/gprovida/vendor/composer/autoload_real.php(61): composerRequirea88ce7ccab434fc4e2822675b6ecbcba()
+#1 /home/gprovida/vendor/autoload.php(7): ComposerAutoloaderInita88ce7ccab434fc4e2822675b6ecbcba::getLoader()
+#2 /home/gprovida/public_html/index.php(34): require('/home/gprovida/...')
+#3 {main}
+  thrown in /home/gprovida/vendor/composer/autoload_real.php on line 71
+[12-Dec-2022 01:12:45 Europe/London] PHP Fatal error:  Uncaught Error: Failed opening required '/home/gprovida/vendor/composer/../php-http/message/src/filters.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/gprovida/vendor/composer/autoload_real.php:71
+Stack trace:
+#0 /home/gprovida/vendor/composer/autoload_real.php(61): composerRequirea88ce7ccab434fc4e2822675b6ecbcba()
+#1 /home/gprovida/vendor/autoload.php(7): ComposerAutoloaderInita88ce7ccab434fc4e2822675b6ecbcba::getLoader()
+#2 /home/gprovida/public_html/index.php(34): require('/home/gprovida/...')
+#3 {main}
+  thrown in /home/gprovida/vendor/composer/autoload_real.php on line 71
+[12-Dec-2022 01:12:54 Europe/London] PHP Fatal error:  Uncaught Error: Failed opening required '/home/gprovida/vendor/composer/../php-http/message/src/filters.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/gprovida/vendor/composer/autoload_real.php:71
+Stack trace:
+#0 /home/gprovida/vendor/composer/autoload_real.php(61): composerRequirea88ce7ccab434fc4e2822675b6ecbcba()
+#1 /home/gprovida/vendor/autoload.php(7): ComposerAutoloaderInita88ce7ccab434fc4e2822675b6ecbcba::getLoader()
+#2 /home/gprovida/public_html/index.php(34): require('/home/gprovida/...')
+#3 {main}
+  thrown in /home/gprovida/vendor/composer/autoload_real.php on line 71
+[12-Dec-2022 01:14:17 Europe/London] PHP Fatal error:  Uncaught Error: Failed opening required '/home/gprovida/vendor/composer/../sentry/sentry/src/functions.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/gprovida/vendor/composer/autoload_real.php:71
+Stack trace:
+#0 /home/gprovida/vendor/composer/autoload_real.php(61): composerRequirea88ce7ccab434fc4e2822675b6ecbcba()
+#1 /home/gprovida/vendor/autoload.php(7): ComposerAutoloaderInita88ce7ccab434fc4e2822675b6ecbcba::getLoader()
+#2 /home/gprovida/public_html/index.php(34): require('/home/gprovida/...')
+#3 {main}
+  thrown in /home/gprovida/vendor/composer/autoload_real.php on line 71
+[12-Dec-2022 01:14:20 Europe/London] PHP Fatal error:  Uncaught Error: Failed opening required '/home/gprovida/vendor/composer/../sentry/sentry/src/functions.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/gprovida/vendor/composer/autoload_real.php:71
+Stack trace:
+#0 /home/gprovida/vendor/composer/autoload_real.php(61): composerRequirea88ce7ccab434fc4e2822675b6ecbcba()
+#1 /home/gprovida/vendor/autoload.php(7): ComposerAutoloaderInita88ce7ccab434fc4e2822675b6ecbcba::getLoader()
+#2 /home/gprovida/public_html/index.php(34): require('/home/gprovida/...')
+#3 {main}
+  thrown in /home/gprovida/vendor/composer/autoload_real.php on line 71
+[12-Dec-2022 01:14:23 Europe/London] PHP Fatal error:  Uncaught Error: Failed opening required '/home/gprovida/vendor/composer/../sentry/sentry/src/functions.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/gprovida/vendor/composer/autoload_real.php:71
+Stack trace:
+#0 /home/gprovida/vendor/composer/autoload_real.php(61): composerRequirea88ce7ccab434fc4e2822675b6ecbcba()
+#1 /home/gprovida/vendor/autoload.php(7): ComposerAutoloaderInita88ce7ccab434fc4e2822675b6ecbcba::getLoader()
+#2 /home/gprovida/public_html/index.php(34): require('/home/gprovida/...')
+#3 {main}
+  thrown in /home/gprovida/vendor/composer/autoload_real.php on line 71
+[12-Dec-2022 01:14:24 Europe/London] PHP Fatal error:  Uncaught Error: Failed opening required '/home/gprovida/vendor/composer/../sentry/sentry/src/functions.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/gprovida/vendor/composer/autoload_real.php:71
+Stack trace:
+#0 /home/gprovida/vendor/composer/autoload_real.php(61): composerRequirea88ce7ccab434fc4e2822675b6ecbcba()
+#1 /home/gprovida/vendor/autoload.php(7): ComposerAutoloaderInita88ce7ccab434fc4e2822675b6ecbcba::getLoader()
+#2 /home/gprovida/public_html/index.php(34): require('/home/gprovida/...')
+#3 {main}
+  thrown in /home/gprovida/vendor/composer/autoload_real.php on line 71
+[12-Dec-2022 01:14:27 Europe/London] PHP Fatal error:  Uncaught Error: Failed opening required '/home/gprovida/vendor/composer/../sentry/sentry/src/functions.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/gprovida/vendor/composer/autoload_real.php:71
+Stack trace:
+#0 /home/gprovida/vendor/composer/autoload_real.php(61): composerRequirea88ce7ccab434fc4e2822675b6ecbcba()
+#1 /home/gprovida/vendor/autoload.php(7): ComposerAutoloaderInita88ce7ccab434fc4e2822675b6ecbcba::getLoader()
+#2 /home/gprovida/public_html/index.php(34): require('/home/gprovida/...')
+#3 {main}
+  thrown in /home/gprovida/vendor/composer/autoload_real.php on line 71
+[12-Dec-2022 01:14:31 Europe/London] PHP Fatal error:  Uncaught Error: Failed opening required '/home/gprovida/vendor/composer/../sentry/sentry/src/functions.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/gprovida/vendor/composer/autoload_real.php:71
+Stack trace:
+#0 /home/gprovida/vendor/composer/autoload_real.php(61): composerRequirea88ce7ccab434fc4e2822675b6ecbcba()
+#1 /home/gprovida/vendor/autoload.php(7): ComposerAutoloaderInita88ce7ccab434fc4e2822675b6ecbcba::getLoader()
+#2 /home/gprovida/public_html/index.php(34): require('/home/gprovida/...')
+#3 {main}
+  thrown in /home/gprovida/vendor/composer/autoload_real.php on line 71
+[12-Dec-2022 01:35:29 UTC] PHP Fatal error:  Trait "Illuminate\Database\Eloquent\SoftDeletes" not found in /home/gprovida/app/Models/User.php on line 13
+[12-Dec-2022 01:40:08 UTC] PHP Fatal error:  Trait "Illuminate\View\Compilers\Concerns\CompilesInjections" not found in /home/gprovida/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php on line 15
